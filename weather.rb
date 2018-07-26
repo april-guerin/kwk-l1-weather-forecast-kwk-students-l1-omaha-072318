@@ -40,7 +40,7 @@ end
 def convert_temp(weather)
   farenheit = weather[:temperature_farenheit].to_f
   puts farenheit
-  (farenheit-32)*(5/9)
+  puts (farenheit-32)*(5/9)
 end
 
 convert_temp(weather)
