@@ -42,7 +42,7 @@ def convert_temp(weather)
   puts farenheit
   answer = farenheit-32
   answer = answer * 5/9
-  puts answer
+  answer.round(2)
 end
 
 convert_temp(weather)
